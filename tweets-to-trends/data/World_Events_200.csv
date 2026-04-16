@@ -1,0 +1,209 @@
+#,Date,Year,Event Description,Category,lat,lon
+1,2010-01-12,2010,"Haiti earthquake kills over 200,000 people",Global Crisis,18.5,-72.3
+2,2010-02-27,2010,Chile earthquake magnitude 8.8 strikes near Concepcion,Global Crisis,-33.5,-70.7
+3,2010-04-10,2010,Polish President Lech Kaczynski dies in Smolensk plane crash,Political,54.8,32.0
+4,2010-04-20,2010,Deepwater Horizon oil rig explodes causing largest US oil spill,Global Crisis,28.7,-88.4
+5,2010-05-06,2010,Flash Crash: Dow Jones drops nearly 1000 points in minutes,Economic,40.7,-74.0
+6,2010-05-09,2010,Eurozone bailout fund of 750 billion euros created to stabilise markets,Economic,50.8,4.4
+7,2010-06-11,2010,FIFA World Cup opens in South Africa for first time on African continent,Political,-26.2,28.0
+8,2010-07-21,2010,US Dodd-Frank financial reform act signed into law after 2008 crisis,Economic,38.9,-77.0
+9,2010-08-31,2010,US combat mission in Iraq officially ends after seven years,Political,33.3,44.4
+10,2010-10-13,2010,33 trapped Chilean miners rescued after 69 days underground,Global Crisis,-27.4,-70.3
+11,2010-11-02,2010,US Midterm Elections: Republicans win House majority in Tea Party wave,Political,38.9,-77.0
+12,2010-11-28,2010,"WikiLeaks releases 250,000 classified US diplomatic cables globally",Political,38.9,-77.0
+13,2010-12-17,2010,Arab Spring begins when Mohamed Bouazizi self-immolates in Tunisia,Political,36.8,10.2
+14,2011-01-25,2011,Egyptian revolution begins with mass protests in Tahrir Square,Political,30.0,31.2
+15,2011-02-11,2011,Egyptian President Hosni Mubarak resigns after 18 days of protests,Political,30.0,31.2
+16,2011-02-15,2011,Libyan civil war begins as protests turn violent against Gaddafi,Global Crisis,32.9,13.2
+17,2011-03-11,2011,"Japan Tohoku earthquake and tsunami kills 18,000 and triggers Fukushima nuclear crisis",Global Crisis,38.3,140.9
+18,2011-05-01,2011,Osama bin Laden killed by US Navy SEALs in Abbottabad Pakistan,Political,34.2,73.2
+19,2011-07-22,2011,Anders Breivik kills 77 people in Norway in worst peacetime attack,Global Crisis,59.9,10.7
+20,2011-08-05,2011,Standard and Poors downgrades US credit rating from AAA for first time,Economic,40.7,-74.0
+21,2011-09-17,2011,Occupy Wall Street movement begins in New York City,Economic,40.7,-74.0
+22,2011-10-20,2011,Libyan leader Muammar Gaddafi captured and killed by rebel forces,Political,31.2,16.6
+23,2011-12-15,2011,US formally ends and withdraws from Iraq War,Political,33.3,44.4
+24,2011-12-17,2011,North Korean leader Kim Jong-il dies and Kim Jong-un takes power,Political,39.0,125.8
+25,2012-01-13,2012,Costa Concordia cruise ship capsizes off Italy killing 32 people,Global Crisis,42.4,10.9
+26,2012-03-01,2012,Greek debt crisis peaks as country receives second EU IMF bailout,Economic,37.9,23.7
+27,2012-05-18,2012,Facebook IPO raises 16 billion dollars on NASDAQ stock exchange,Economic,40.7,-74.0
+28,2012-06-17,2012,Greece holds second election after first fails to form government,Political,37.9,23.7
+29,2012-07-20,2012,Aurora Colorado cinema shooting kills 12 during Batman premiere,Global Crisis,39.7,-104.8
+30,2012-08-06,2012,NASA Curiosity rover successfully lands on Mars,Political,34.2,-118.2
+31,2012-09-11,2012,US Ambassador Chris Stevens killed in Benghazi Libya attack,Political,32.1,20.1
+32,2012-10-29,2012,Hurricane Sandy hits US East Coast killing 233 and causing 65bn damage,Global Crisis,40.7,-74.0
+33,2012-11-06,2012,Barack Obama re-elected as US President defeating Mitt Romney,Political,38.9,-77.0
+34,2012-12-14,2012,Sandy Hook Elementary shooting kills 20 children in Connecticut,Global Crisis,41.4,-73.3
+35,2013-02-15,2013,Chelyabinsk meteor explodes over Russia injuring 1500 people,Global Crisis,55.2,61.4
+36,2013-03-13,2013,Pope Francis elected as first Latin American pope,Political,41.9,12.5
+37,2013-04-15,2013,Boston Marathon bombing kills 3 and injures 264 people,Global Crisis,42.4,-71.1
+38,2013-04-24,2013,Rana Plaza garment factory collapse in Bangladesh kills 1134 workers,Global Crisis,23.7,90.4
+39,2013-06-05,2013,Edward Snowden reveals NSA mass surveillance program to the world,Political,38.9,-77.0
+40,2013-08-21,2013,Chemical weapons attack kills hundreds in Ghouta Syria,Global Crisis,33.5,36.3
+41,2013-10-01,2013,US government shuts down for 16 days over budget disputes,Political,38.9,-77.0
+42,2013-11-08,2013,Typhoon Haiyan devastates Philippines killing over 6000 people,Global Crisis,11.2,125.0
+43,2013-12-05,2013,Nelson Mandela dies aged 95 after being first Black South African president,Political,-26.2,28.0
+44,2014-02-22,2014,Ukraine revolution ousts President Yanukovych after months of protests,Political,50.4,30.5
+45,2014-03-08,2014,Malaysia Airlines Flight MH370 disappears with 239 people on board,Global Crisis,3.1,101.7
+46,2014-03-18,2014,Russia formally annexes Crimea from Ukraine after referendum,Political,44.9,34.1
+47,2014-04-15,2014,Boko Haram kidnaps 276 schoolgirls in Chibok Nigeria,Global Crisis,10.9,12.8
+48,2014-06-29,2014,ISIS declares caliphate across Iraq and Syria under Abu Bakr al-Baghdadi,Political,36.3,43.1
+49,2014-07-17,2014,Malaysia Airlines MH17 shot down over eastern Ukraine killing 298,Global Crisis,47.9,37.8
+50,2014-08-09,2014,Michael Brown shot by police in Ferguson Missouri sparking protests,Political,38.7,-90.3
+51,2014-09-18,2014,Scotland independence referendum: 55 percent vote to remain in UK,Political,55.9,-3.2
+52,2014-10-22,2014,Ottawa Parliament Hill attack by lone gunman in Canada,Global Crisis,45.4,-75.7
+53,2014-12-17,2014,US and Cuba restore diplomatic relations after 50 years of hostility,Political,23.1,-82.4
+54,2015-01-07,2015,Charlie Hebdo terrorist attack in Paris kills 12 at satirical magazine,Global Crisis,48.9,2.3
+55,2015-02-01,2015,ISIS releases video of Jordanian pilot being burned alive,Global Crisis,36.0,38.9
+56,2015-04-02,2015,Garissa University attack in Kenya kills 147 students by al-Shabaab,Global Crisis,-0.5,39.6
+57,2015-04-25,2015,Nepal earthquake kills nearly 9000 people and destroys Kathmandu,Global Crisis,27.7,85.3
+58,2015-06-17,2015,Charleston church shooting kills 9 Black worshippers in South Carolina,Global Crisis,32.8,-79.9
+59,2015-06-26,2015,US Supreme Court legalises same-sex marriage nationwide in Obergefell ruling,Political,38.9,-77.0
+60,2015-07-14,2015,Iran nuclear deal JCPOA signed between Iran and world powers,Political,48.2,16.4
+61,2015-08-24,2015,Black Monday global stock market crash triggered by China slowdown fears,Economic,31.2,121.5
+62,2015-09-02,2015,Image of drowned Syrian refugee toddler Alan Kurdi shocks the world,Global Crisis,37.0,27.4
+63,2015-09-25,2015,Volkswagen emissions scandal exposed costing company 30 billion dollars,Economic,48.8,9.2
+64,2015-11-13,2015,Paris terrorist attacks kill 130 people at Bataclan and other venues,Global Crisis,48.9,2.3
+65,2015-12-12,2015,Paris Climate Agreement signed by 196 countries at COP21,Political,48.9,2.3
+66,2016-01-16,2016,Iran nuclear sanctions lifted as JCPOA implementation begins,Political,48.2,16.4
+67,2016-02-11,2016,Gravitational waves detected for first time confirming Einstein theory,Political,46.5,-119.4
+68,2016-03-22,2016,Brussels terrorist attacks kill 32 at airport and metro station,Global Crisis,50.8,4.4
+69,2016-04-03,2016,Panama Papers leak exposes offshore tax havens of world leaders,Economic,8.9,-79.5
+70,2016-06-12,2016,Orlando Pulse nightclub shooting kills 49 in deadliest US mass shooting,Global Crisis,28.5,-81.4
+71,2016-06-23,2016,Brexit referendum: UK votes 52 percent to leave the European Union,Political,51.5,-0.1
+72,2016-07-14,2016,Nice truck attack kills 86 people on Bastille Day in France,Global Crisis,43.7,7.3
+73,2016-07-15,2016,Failed military coup attempt in Turkey leads to mass purges,Political,39.9,32.9
+74,2016-09-09,2016,North Korea conducts fifth and largest nuclear weapons test,Global Crisis,41.3,129.1
+75,2016-11-08,2016,Donald Trump elected 45th President of the United States,Political,38.9,-77.0
+76,2016-12-19,2016,Russian ambassador assassinated at art gallery in Ankara Turkey,Political,39.9,32.9
+77,2017-01-20,2017,Donald Trump inaugurated as 45th US President in Washington DC,Political,38.9,-77.0
+78,2017-01-27,2017,Trump signs travel ban blocking entry from seven Muslim-majority countries,Political,38.9,-77.0
+79,2017-03-29,2017,UK triggers Article 50 beginning formal process of leaving EU,Political,51.5,-0.1
+80,2017-04-06,2017,US launches missile strikes on Syria after chemical weapons attack,Political,33.5,36.3
+81,2017-05-17,2017,Robert Mueller appointed as Special Counsel to investigate Russia interference,Political,38.9,-77.0
+82,2017-06-01,2017,Trump announces US withdrawal from Paris Climate Agreement,Political,38.9,-77.0
+83,2017-08-12,2017,Charlottesville white nationalist rally ends in deadly car attack,Political,38.0,-78.5
+84,2017-09-20,2017,Hurricane Maria devastates Puerto Rico killing nearly 3000 people,Global Crisis,18.2,-66.6
+85,2017-10-01,2017,Las Vegas mass shooting kills 60 at country music festival,Global Crisis,36.2,-115.2
+86,2017-10-05,2017,Harvey Weinstein sexual abuse allegations spark MeToo movement globally,Political,34.1,-118.3
+87,2017-11-04,2017,Saudi Arabia arrests hundreds of princes and businessmen in anti-corruption purge,Political,24.7,46.7
+88,2017-12-22,2017,Trump signs Tax Cuts and Jobs Act cutting corporate tax to 21 percent,Economic,38.9,-77.0
+89,2018-02-14,2018,Parkland Florida school shooting kills 17 students and staff,Global Crisis,26.3,-80.3
+90,2018-03-01,2018,US imposes steel and aluminium tariffs starting global trade war,Economic,38.9,-77.0
+91,2018-04-14,2018,US UK France launch airstrikes on Syria over chemical weapons use,Political,33.5,36.3
+92,2018-05-08,2018,Trump withdraws US from Iran nuclear deal JCPOA,Political,38.9,-77.0
+93,2018-06-12,2018,Trump and Kim Jong-un hold historic summit in Singapore,Political,1.3,103.8
+94,2018-07-16,2018,Trump-Putin Helsinki summit raises questions about US-Russia relations,Political,60.2,25.0
+95,2018-08-25,2018,Senator John McCain dies of brain cancer aged 81,Political,33.4,-112.1
+96,2018-10-02,2018,Saudi journalist Jamal Khashoggi murdered inside Saudi consulate in Istanbul,Political,41.0,28.9
+97,2018-11-06,2018,US Midterm Elections: Democrats win House majority ending Republican control,Political,38.9,-77.0
+98,2018-11-08,2018,California Camp Fire becomes deadliest in state history killing 85,Global Crisis,39.8,-121.6
+99,2018-12-11,2018,Strasbourg Christmas market attack kills 5 in France,Global Crisis,48.6,7.7
+100,2018-12-22,2018,Longest US government shutdown in history begins lasting 35 days,Political,38.9,-77.0
+101,2019-01-25,2019,US government shutdown ends after record 35 days with no wall funding,Political,38.9,-77.0
+102,2019-03-15,2019,Christchurch mosque shootings kill 51 in New Zealand,Global Crisis,-43.5,172.6
+103,2019-04-15,2019,Notre-Dame Cathedral devastated by fire in Paris France,Global Crisis,48.9,2.3
+104,2019-05-23,2019,Theresa May resigns as UK Prime Minister over failed Brexit deal,Political,51.5,-0.1
+105,2019-06-30,2019,Trump becomes first sitting US president to step into North Korea,Political,37.9,126.7
+106,2019-07-20,2019,Boris Johnson elected as UK Conservative leader and Prime Minister,Political,51.5,-0.1
+107,2019-08-01,2019,US-China trade war escalates as Trump imposes new tariffs on 300bn goods,Economic,38.9,-77.0
+108,2019-09-23,2019,Greta Thunberg gives how dare you speech at UN Climate Action Summit,Political,40.7,-74.0
+109,2019-10-27,2019,ISIS leader Abu Bakr al-Baghdadi killed in US military raid in Syria,Political,35.9,36.6
+110,2019-12-12,2019,Boris Johnson wins UK general election with 80-seat majority for Brexit,Political,51.5,-0.1
+111,2019-12-18,2019,Donald Trump impeached by US House over Ukraine phone call,Political,38.9,-77.0
+112,2019-12-31,2019,China reports cluster of unusual pneumonia cases to WHO Wuhan,Global Crisis,30.6,114.3
+113,2020-01-03,2020,US kills Iranian General Qasem Soleimani in Baghdad drone strike,Political,33.3,44.4
+114,2020-01-15,2020,US and China sign Phase One trade deal ending part of trade war,Economic,38.9,-77.0
+115,2020-01-31,2020,UK officially leaves the European Union ending 47 years of membership,Political,51.5,-0.1
+116,2020-02-05,2020,Trump acquitted by Senate in first impeachment trial,Political,38.9,-77.0
+117,2020-02-23,2020,COVID-19 outbreak declared in Italy becoming first major European crisis,Global Crisis,41.9,12.5
+118,2020-03-11,2020,WHO officially declares COVID-19 a global pandemic,Global Crisis,46.2,6.1
+119,2020-03-16,2020,Global stock markets crash with worst single-week losses since 1987,Economic,40.7,-74.0
+120,2020-03-27,2020,US CARES Act of 2.2 trillion dollars signed as COVID economic relief,Economic,38.9,-77.0
+121,2020-05-25,2020,George Floyd killed by Minneapolis police officer sparking worldwide protests,Political,44.9,-93.2
+122,2020-06-15,2020,US Supreme Court rules LGBTQ workers protected from workplace discrimination,Political,38.9,-77.0
+123,2020-09-18,2020,Supreme Court Justice Ruth Bader Ginsburg dies aged 87,Political,38.9,-77.0
+124,2020-10-02,2020,Donald Trump tests positive for COVID-19 and is hospitalised,Global Crisis,38.9,-77.0
+125,2020-11-03,2020,Joe Biden wins US Presidential Election defeating Donald Trump,Political,38.9,-77.0
+126,2020-11-09,2020,Pfizer announces COVID-19 vaccine 90 percent effective in trials,Global Crisis,40.7,-74.0
+127,2020-12-08,2020,First COVID-19 vaccine administered outside trial in the UK,Global Crisis,52.4,-1.5
+128,2020-12-27,2020,US Congress passes 900 billion dollar COVID-19 relief package,Economic,38.9,-77.0
+129,2021-01-06,2021,US Capitol stormed by Trump supporters attempting to stop election certification,Political,38.9,-77.0
+130,2021-01-20,2021,Joe Biden inaugurated as 46th President of the United States,Political,38.9,-77.0
+131,2021-02-01,2021,Myanmar military coup ousts elected government and detains Aung San Suu Kyi,Political,19.8,96.1
+132,2021-02-13,2021,Trump acquitted in second Senate impeachment trial over Capitol attack,Political,38.9,-77.0
+133,2021-03-23,2021,Ever Given container ship blocks Suez Canal for 6 days halting trade,Economic,30.6,32.5
+134,2021-04-20,2021,Derek Chauvin convicted of murder in George Floyd death,Political,44.9,-93.2
+135,2021-06-10,2021,G7 leaders agree to global minimum corporate tax of 15 percent,Economic,50.1,-5.5
+136,2021-07-01,2021,Surfside condominium collapse in Miami kills 98 people,Global Crisis,25.9,-80.1
+137,2021-08-15,2021,Taliban retakes Kabul as US withdraws from Afghanistan after 20 years,Political,34.5,69.2
+138,2021-09-15,2021,AUKUS security pact announced between US UK and Australia,Political,38.9,-77.0
+139,2021-10-04,2021,Facebook Instagram and WhatsApp suffer global outage for 7 hours,Economic,37.5,-122.2
+140,2021-11-01,2021,COP26 Climate Summit opens in Glasgow attended by world leaders,Political,55.9,-4.3
+141,2021-11-26,2021,Omicron COVID-19 variant detected in South Africa causing new alarm,Global Crisis,-26.2,28.0
+142,2021-12-19,2021,Boris Johnson faces rebellion as Omicron COVID restrictions divide UK parliament,Political,51.5,-0.1
+143,2022-01-15,2022,Tonga underwater volcanic eruption causes tsunami across Pacific region,Global Crisis,-21.1,-175.2
+144,2022-02-04,2022,Beijing Winter Olympics open amid diplomatic boycott by Western nations,Political,39.9,116.4
+145,2022-02-24,2022,Russia launches full-scale invasion of Ukraine starting major European war,Global Crisis,50.4,30.5
+146,2022-03-16,2022,US Federal Reserve raises interest rates for first time since 2018,Economic,40.7,-74.0
+147,2022-04-03,2022,Bucha massacre revealed after Russian forces withdraw from Kyiv suburbs,Global Crisis,50.5,30.2
+148,2022-05-14,2022,Roe v Wade draft opinion leaked from US Supreme Court causing protests,Political,38.9,-77.0
+149,2022-06-01,2022,Global inflation reaches 40-year highs forcing aggressive central bank responses,Economic,46.2,6.1
+150,2022-06-24,2022,US Supreme Court overturns Roe v Wade ending federal abortion rights,Political,38.9,-77.0
+151,2022-07-08,2022,Former Japanese Prime Minister Shinzo Abe assassinated at campaign rally,Political,34.7,135.8
+152,2022-07-09,2022,Boris Johnson resigns as UK Prime Minister amid cabinet rebellion,Political,51.5,-0.1
+153,2022-09-08,2022,Queen Elizabeth II dies at Balmoral after 70-year reign aged 96,Political,57.0,-3.1
+154,2022-09-27,2022,Nord Stream gas pipelines to Europe sabotaged in Baltic Sea,Global Crisis,55.4,15.6
+155,2022-10-25,2022,Rishi Sunak becomes UK Prime Minister and first British Asian leader,Political,51.5,-0.1
+156,2022-11-08,2022,"US Midterm Elections: Democrats keep Senate, Republicans win House narrowly",Political,38.9,-77.0
+157,2022-11-11,2022,FTX cryptocurrency exchange collapses in 8 billion dollar fraud scandal,Economic,25.0,-77.4
+158,2022-12-06,2022,World Cup 2022 final in Qatar won by Argentina against France on penalties,Political,25.4,51.5
+159,2023-01-08,2023,Brazilian Congress stormed by Bolsonaro supporters mirroring US Capitol attack,Political,-15.8,-47.9
+160,2023-02-06,2023,"Earthquake kills 50,000 people across Turkey and Syria in one of deadliest disasters",Global Crisis,37.1,37.4
+161,2023-03-10,2023,Silicon Valley Bank collapses in biggest US banking failure since 2008,Economic,37.8,-122.4
+162,2023-03-19,2023,Credit Suisse emergency rescue by UBS as banking sector fears spread,Economic,47.4,8.5
+163,2023-04-04,2023,Donald Trump indicted on 34 felony counts in New York making history,Political,40.7,-74.0
+164,2023-05-10,2023,King Charles III coronation takes place at Westminster Abbey in London,Political,51.5,-0.1
+165,2023-06-01,2023,US debt ceiling crisis resolved hours before potential catastrophic default,Economic,38.9,-77.0
+166,2023-06-14,2023,Trump faces 37 federal charges over classified documents at Mar-a-Lago,Political,26.6,-80.0
+167,2023-06-18,2023,Titan submersible implodes killing 5 during Titanic wreck expedition,Global Crisis,41.7,-49.9
+168,2023-08-08,2023,Maui Hawaii wildfires kill over 100 in deadliest US fire in over a century,Global Crisis,20.9,-156.7
+169,2023-09-08,2023,Morocco earthquake kills 3000 people near Marrakech,Global Crisis,31.6,-8.0
+170,2023-09-10,2023,"Libya floods caused by dam collapse kill over 10,000 in Derna",Global Crisis,32.8,22.6
+171,2023-10-07,2023,Hamas launches surprise attack on Israel killing 1200 and taking 250 hostages,Global Crisis,31.3,34.5
+172,2023-10-17,2023,Israel declares war and begins Gaza ground offensive after Hamas attack,Global Crisis,31.5,34.5
+173,2023-11-17,2023,OpenAI fires then reinstates CEO Sam Altman in dramatic boardroom coup,Economic,37.8,-122.4
+174,2023-12-01,2023,COP28 climate summit opens in Dubai agreeing transition away from fossil fuels,Political,25.2,55.3
+175,2024-01-01,2024,Japan struck by major earthquake on New Year's Day killing hundreds,Global Crisis,37.3,136.9
+176,2024-01-15,2024,Taiwan elects William Lai as president in vote seen as challenge to China,Political,25.0,121.5
+177,2024-02-13,2024,Kansas City Chiefs win Super Bowl as Taylor Swift and Travis Kelce watch,Political,36.2,-115.2
+178,2024-02-16,2024,Russian opposition leader Alexei Navalny dies in Arctic prison colony,Political,65.0,60.0
+179,2024-03-22,2024,Moscow concert hall terror attack kills 145 in deadliest Russian attack in years,Global Crisis,55.7,37.6
+180,2024-04-01,2024,Iran launches over 300 drones and missiles at Israel in unprecedented attack,Global Crisis,35.7,51.4
+181,2024-05-15,2024,Gaza famine declared as aid blocked amid intensifying Israeli military campaign,Global Crisis,31.5,34.5
+182,2024-06-06,2024,D-Day 80th anniversary commemorated by world leaders in Normandy France,Political,49.4,-0.9
+183,2024-06-13,2024,Hunter Biden convicted on gun charges in federal trial,Political,39.7,-75.5
+184,2024-06-27,2024,Biden disastrous debate performance against Trump shocks Democrats globally,Political,33.7,-84.4
+185,2024-07-01,2024,US Supreme Court grants presidents broad immunity from criminal prosecution,Political,38.9,-77.0
+186,2024-07-13,2024,Assassination attempt on Donald Trump at Pennsylvania rally injures his ear,Political,40.9,-79.9
+187,2024-07-21,2024,Joe Biden withdraws from 2024 presidential race endorsing Kamala Harris,Political,38.9,-77.0
+188,2024-08-05,2024,Global stock market sell-off triggered by weak US jobs data and Japan rate rise,Economic,35.7,139.7
+189,2024-09-10,2024,Kamala Harris defeats Trump in US presidential debate,Political,40.0,-75.2
+190,2024-10-07,2024,One year anniversary of Hamas attack as Gaza war continues with 40000 dead,Global Crisis,31.5,34.5
+191,2024-10-17,2024,Israel kills Hezbollah leader Hassan Nasrallah in Beirut airstrike,Political,33.9,35.5
+192,2024-11-05,2024,Donald Trump wins US Presidential Election defeating Kamala Harris,Political,38.9,-77.0
+193,2024-11-20,2024,"Bitcoin surpasses 90,000 dollars for first time after Trump election victory",Economic,40.7,-74.0
+194,2024-12-01,2024,South Korean President declares then revokes martial law within hours,Political,37.6,127.0
+195,2024-12-08,2024,Syrian President Assad flees to Russia as rebel forces take Damascus,Political,33.5,36.3
+196,2024-12-18,2024,Federal Reserve cuts rates but signals fewer cuts in 2025 causing market drop,Economic,40.7,-74.0
+197,2025-01-07,2025,Los Angeles wildfires devastate Pacific Palisades and Altadena killing dozens,Global Crisis,34.1,-118.3
+198,2025-01-20,2025,Donald Trump inaugurated as 47th President of the United States,Political,38.9,-77.0
+199,2025-01-22,2025,Trump signs executive orders on immigration border and energy on first days,Political,38.9,-77.0
+200,2025-01-29,2025,American Airlines and US Army helicopter collision near Washington DC kills 67,Global Crisis,38.9,-77.0
+201,2025-02-01,2025,Trump announces sweeping tariffs on Canada Mexico and China causing market fear,Economic,38.9,-77.0
+202,2025-02-13,2025,Elon Musk DOGE team begins mass federal government layoffs across agencies,Political,38.9,-77.0
+203,2025-02-28,2025,Trump and Zelensky clash in tense Oval Office meeting over Ukraine war,Political,38.9,-77.0
+204,2025-03-04,2025,US tariffs on Canada and Mexico take effect triggering retaliatory measures,Economic,38.9,-77.0
+205,2025-03-10,2025,US stock market enters correction falling 10 percent amid tariff uncertainty,Economic,40.7,-74.0
+206,2025-03-20,2025,Gaza ceasefire agreement holds as negotiations for permanent deal continue,Political,30.0,31.2
+207,2025-03-25,2025,European nations pledge record defence spending amid US NATO uncertainty,Political,50.8,4.4
+208,2025-04-01,2025,Global trade tensions escalate as Trump announces further reciprocal tariffs,Economic,38.9,-77.0

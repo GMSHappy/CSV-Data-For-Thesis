@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>From Tweets to Trends | TU Dublin</title>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- SCREEN 1: WELCOME -->
+  <div id="screen-welcome" class="screen active">
+    <div class="stars" id="stars"></div>
+    <div class="scanline"></div>
+
+    <div class="welcome-content">
+      <div class="welcome-badge">BSc COMPUTING THESIS &nbsp;·&nbsp; TU DUBLIN &nbsp;·&nbsp; 2025</div>
+
+      <h1 class="welcome-title">
+        <span class="t-from">FROM</span>
+        <span class="t-tweets">TWEETS</span>
+        <span class="t-to">TO</span>
+        <span class="t-trends">TRENDS</span>
+      </h1>
+
+      <p class="welcome-sub">Analysis of Elon Musk &amp; Donald Trump's Online Influence (2010–2025)</p>
+      <p class="welcome-author">GIRISH &nbsp;·&nbsp; SUPERVISED BY KYLE GOSLIN &nbsp;·&nbsp; TU DUBLIN</p>
+
+      <div class="welcome-divider"></div>
+
+      <button class="btn-start" onclick="goToGlobe()">
+        <span class="btn-ring"></span>
+        START
+      </button>
+    </div>
+
+    <div class="welcome-counters">
+      <div class="ctr-item"><div class="ctr-val" id="ctr-trump">—</div><div class="ctr-lbl">Trump Tweets</div></div>
+      <div class="ctr-item"><div class="ctr-val" id="ctr-elon">—</div><div class="ctr-lbl">Musk Tweets</div></div>
+      <div class="ctr-item"><div class="ctr-val">15</div><div class="ctr-lbl">Years of Data</div></div>
+      <div class="ctr-item"><div class="ctr-val">200+</div><div class="ctr-lbl">World Events</div></div>
+    </div>
+  </div>
+
+
+  <!-- SCREEN 2: GLOBE -->
+  <div id="screen-globe" class="screen">
+    <div class="globe-bar">
+      <div class="globe-bar-title">FROM TWEETS TO TRENDS &nbsp;·&nbsp; GLOBAL VIEW</div>
+      <div class="globe-btns">
+        <button class="gctrl" id="btn-spin" onclick="toggleSpin()">PAUSE ROTATION</button>
+        <button class="gctrl" onclick="resetGlobe()">RESET VIEW</button>
+      </div>
+      <button class="btn-dash" onclick="goToDashboard()">ENTER DASHBOARD</button>
+    </div>
+
+    <div class="globe-main">
+      <div id="globe-plot"></div>
+
+      <div class="side-panel" id="side-panel">
+        <div class="side-panel-top">
+          <span class="side-panel-title">WORLD EVENTS</span>
+          <button class="side-close" onclick="closePanel()">CLOSE</button>
+        </div>
+        <div class="side-panel-body" id="side-panel-body">
+          <p class="side-hint">Click a gold point on the globe to see events for that year.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="globe-foot">
+      <div class="leg-item"><span class="dot dot-blue"></span>Elon Musk Activity</div>
+      <div class="leg-item"><span class="dot dot-red"></span>Donald Trump Activity</div>
+      <div class="leg-item"><span class="dot dot-gold"></span>World Event — click to open</div>
+      <span class="leg-note">Drag to rotate manually &nbsp;·&nbsp; Scroll to zoom</span>
+    </div>
+  </div>
+
+
+  <!-- SCREEN 3: DASHBOARD -->
+  <div id="screen-dashboard" class="screen">
+    <nav class="dash-nav">
+      <div class="nav-logo">TWEETS TO TRENDS</div>
+      <div class="nav-links">
+        <button class="nav-lnk active" onclick="jumpTo('sec-overview', this)">OVERVIEW</button>
+        <button class="nav-lnk" onclick="jumpTo('sec-timeline', this)">TIMELINE</button>
+        <button class="nav-lnk" onclick="jumpTo('sec-engagement', this)">ENGAGEMENT</button>
+        <button class="nav-lnk" onclick="jumpTo('sec-events', this)">EVENTS</button>
+        <button class="nav-lnk" onclick="jumpTo('sec-viral', this)">VIRAL</button>
+        <button class="nav-lnk" onclick="jumpTo('sec-behaviour', this)">BEHAVIOUR</button>
+      </div>
+      <button class="nav-back" onclick="goToGlobe()">BACK TO GLOBE</button>
+    </nav>
+
+    <div class="dash-body">
+
+      <!-- 01 Overview -->
+      <section id="sec-overview">
+        <div class="sh"><span class="sh-num">01</span><h2>HEAD TO HEAD OVERVIEW</h2><div class="sh-line"></div></div>
+
+        <div class="stats-row">
+          <div class="sbox blue"><div class="sval" id="s-elon-total">—</div><div class="slbl">Musk Total Tweets</div></div>
+          <div class="sbox blue"><div class="sval" id="s-elon-rt">—</div><div class="slbl">Musk Avg Retweets</div></div>
+          <div class="sbox blue"><div class="sval" id="s-elon-fav">—</div><div class="slbl">Musk Avg Likes</div></div>
+          <div class="sbox red"><div class="sval" id="s-trump-total">—</div><div class="slbl">Trump Total Tweets</div></div>
+          <div class="sbox red"><div class="sval" id="s-trump-rt">—</div><div class="slbl">Trump Avg Retweets</div></div>
+          <div class="sbox red"><div class="sval" id="s-trump-fav">—</div><div class="slbl">Trump Avg Likes</div></div>
+        </div>
+
+        <div class="card">
+          <div class="card-lbl">DIRECT COMPARISON</div>
+          <div class="h2h">
+            <div class="h2h-side musk-side">
+              <div class="h2h-name c-blue">ELON MUSK</div>
+              <div id="h2h-musk"></div>
+            </div>
+            <div class="h2h-vs">VS</div>
+            <div class="h2h-side trump-side">
+              <div class="h2h-name c-red">DONALD TRUMP</div>
+              <div id="h2h-trump"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02 Timeline -->
+      <section id="sec-timeline">
+        <div class="sh"><span class="sh-num">02</span><h2>TWEET VOLUME OVER TIME (2010–2025)</h2><div class="sh-line"></div></div>
+        <div class="card"><div id="chart-timeline" style="height:400px"></div></div>
+      </section>
+
+      <!-- 03 Engagement -->
+      <section id="sec-engagement">
+        <div class="sh"><span class="sh-num">03</span><h2>ENGAGEMENT ANALYSIS</h2><div class="sh-line"></div></div>
+        <div class="two-col">
+          <div class="card"><div class="card-lbl">AVERAGE RETWEETS PER YEAR</div><div id="chart-retweets" style="height:350px"></div></div>
+          <div class="card"><div class="card-lbl">AVERAGE LIKES PER YEAR</div><div id="chart-likes" style="height:350px"></div></div>
+        </div>
+      </section>
+
+      <!-- 04 Events -->
+      <section id="sec-events">
+        <div class="sh"><span class="sh-num">04</span><h2>TWEET SPIKES LINKED TO WORLD EVENTS</h2><div class="sh-line"></div></div>
+        <div class="card">
+          <div class="card-lbl" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+            <span>&#9733; Gold star = world event &nbsp;&middot;&nbsp; Hover star for details &nbsp;&middot;&nbsp; Scroll to zoom in/out &nbsp;&middot;&nbsp; <span style="color:rgba(255,80,100,0.8);">&#9474;</span> Political &nbsp;<span style="color:rgba(0,212,255,0.8);">&#9474;</span> Technology &nbsp;<span style="color:rgba(255,215,0,0.8);">&#9474;</span> Other</span>
+            <button class="gctrl" onclick="resetEventsZoom()" style="font-size:0.6rem;padding:0.35rem 0.9rem;flex-shrink:0;">RESET ZOOM</button>
+          </div>
+          <div id="chart-events" style="height:520px"></div>
+        </div>
+      </section>
+
+      <!-- 05 Viral -->
+      <section id="sec-viral">
+        <div class="sh"><span class="sh-num">05</span><h2>MOST VIRAL TWEETS</h2><div class="sh-line"></div></div>
+        <div class="two-col">
+          <div class="card"><div class="card-lbl c-blue">TOP 5 — ELON MUSK</div><div id="viral-musk"></div></div>
+          <div class="card"><div class="card-lbl c-red">TOP 5 — DONALD TRUMP</div><div id="viral-trump"></div></div>
+        </div>
+      </section>
+
+      <!-- 06 Behaviour -->
+      <section id="sec-behaviour">
+        <div class="sh"><span class="sh-num">06</span><h2>POSTING BEHAVIOUR</h2><div class="sh-line"></div></div>
+        <div class="two-col">
+          <div class="card"><div class="card-lbl">TWEETS BY HOUR OF DAY</div><div id="chart-hours" style="height:350px"></div></div>
+          <div class="card"><div class="card-lbl">TWEETS BY DAY OF WEEK</div><div id="chart-days" style="height:350px"></div></div>
+        </div>
+      </section>
+
+      <footer class="dash-foot">
+        From Tweets to Trends &nbsp;·&nbsp; Girish &nbsp;·&nbsp; TU Dublin &nbsp;·&nbsp; BSc Computing 2025 &nbsp;·&nbsp; Supervised by Kyle Goslin
+      </footer>
+    </div>
+  </div>
+
+  <!-- JS loaded last so DOM is ready -->
+  <script src="js/main.js"></script>
+  <script src="js/globe.js"></script>
+  <script src="js/charts.js"></script>
+
+</body>
+</html>
